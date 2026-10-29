@@ -16,3 +16,13 @@ wandb/
 outputs/
 models/
 build/
+
+# Local research environment and generated artifacts
+.venv/
+.env
+.env.*
+!.env.example
+videos/
+checkpoints/
+runtime_memory/
+.cache/
